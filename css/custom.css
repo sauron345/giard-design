@@ -1,0 +1,47 @@
+.nav-item {
+    margin-right: 50px;
+    font-size: 14px;
+    font-family: Inter;
+}
+
+.navbar-brand {
+    margin-left: 60px;
+}
+
+.nav-search {
+    margin-top: 5px;
+    margin-right: 70px;
+    font-size: 14px;
+}
+
+.right-side {
+    position: absolute;
+    height: 90.9%;
+    right: 0;
+}
+
+p.header {
+    margin-left: 89px;
+    margin-top: 145px;
+    font-family: Montserrat-black;
+    font-size: 60px;
+    white-space: pre-line;
+    line-height: 110%;
+}
+
+p {
+    margin-top: 30px;
+    font-family: Inter;
+    margin-left: 89px;
+    white-space: pre-line;
+}
+
+button {
+    margin-top: 40px;
+    border-radius: 25px !important;
+}
+
+.text-button {
+    font-size: 16px;
+    padding: 5px !important;
+}
