@@ -9,9 +9,8 @@
 }
 
 .nav-search {
-    margin-top: 5px;
+    margin-top: 4px;
     margin-right: 70px;
-    font-size: 14px;
 }
 
 .right-side {
@@ -44,4 +43,38 @@ button {
 .text-button {
     font-size: 16px;
     padding: 5px !important;
+}
+
+#search-enclose {
+  overflow: hidden;
+}
+
+#label-enclose {
+  float: right;
+}
+
+#label-enclose label {
+  cursor: pointer;
+  display: inline-block;
+}
+
+#input-enclose {
+  float: right;
+  font-size: 0;
+}
+
+#input-enclose input {
+    height: 2.5em;
+    padding: 0;
+    width: 0;
+    border: none;
+    font-size: 14px;
+    margin-right: -1px;
+    transition: all .3s;
+}
+
+#input-enclose input:focus {
+    width: 15em;
+    height: 2.5em;
+    outline: none;
 }

@@ -56,12 +56,20 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Kontakt</a>
           </li>
-          <li class="nav-search">
-            <img src="images/icon-search.png" />
-          </li>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          </form>
+          <div id="search-enclose">
+            <form>
+              <label id="label-enclose">
+                <li class="nav-search">
+                  <label for="fldSearch">
+                    <img src="images/icon-search.png" />
+                  </label>
+                </li>
+              </label>
+              <div id="input-enclose">
+                <input type="text" placeholder="Enter Keyword" id="fldSearch">
+              </div>
+            </form>
+          </div>
         </ul>
       </div>
     </div>
