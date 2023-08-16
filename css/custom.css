@@ -15,8 +15,15 @@
 
 .right-side {
     position: absolute;
-    height: 90.9%;
+    height: 737px;
+    width: 688px;
     right: 0;
+}
+
+.left-side {
+    position: absolute;
+    left: 0;
+    top: 0 !important;
 }
 
 p.header {
@@ -24,14 +31,17 @@ p.header {
     margin-top: 145px;
     font-family: Montserrat-black;
     font-size: 60px;
-    white-space: pre-line;
     line-height: 110%;
 }
 
-p {
+p.under-header {
     margin-top: 30px;
     font-family: Inter;
     margin-left: 89px;
+    font-size: 16px;
+}
+
+p {
     white-space: pre-line;
 }
 
@@ -78,3 +88,17 @@ button {
     height: 2.5em;
     outline: none;
 }
+
+.card {
+    border: none;
+    width: 378px;
+    height: 370px;
+    margin-top: 50px;
+    border-radius: 30px
+}
+
+/*
+body {
+    height: 1440px;
+    width: 737px;
+}*/
